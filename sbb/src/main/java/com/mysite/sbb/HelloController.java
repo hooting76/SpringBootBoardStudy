@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloController {
 	
-	@GetMapping("/hello")
+//	@GetMapping("/hello")
+//	@ResponseBody
+//	public String hello() {
+//		return "Hello Spring Boot Board";
+//	}
+	
+	@GetMapping("/jump")
 	@ResponseBody
 	public String hello() {
-		return "Hello Spring Boot Board";
-	}
+		return "점프 투 스프링 부트";
+	}	
 }
